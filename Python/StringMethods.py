@@ -10,8 +10,11 @@ print(a.count("Harshit")) #Tells the no of times the given string is occuring
 
 blogHeading = "introduction tO Chess"
 print(blogHeading.capitalize()) #Creats a new string and capitalizes the first letter and lowercases all the other letters
- str1 = "Welcome to the console!!!!"
+str1 = "Welcome to the console!!!!"
 print(str1.center(50)) #It will create a new string and add spaces to center the string
-print(str1.endswith("!!!!"))
+print(str1.endswith("!!!!"))#Answers in true or false if the variable ends with a given string
 
+str2 = "He's name is Dan. He is an honest man."
+print(str1.find("is")) # prints the index of the occurence of the given string
+print(str1.index("ishh")) #prints an error if the given string is not present
 
