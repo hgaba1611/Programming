@@ -15,6 +15,6 @@ print(str1.center(50)) #It will create a new string and add spaces to center the
 print(str1.endswith("!!!!"))#Answers in true or false if the variable ends with a given string
 
 str2 = "He's name is Dan. He is an honest man."
-print(str1.find("is")) # prints the index of the occurence of the given string
-print(str1.index("ishh")) #prints an error if the given string is not present
-
+print(str2.find("is")) # prints the index of the occurence of the given string
+print(str2.index("ishh")) #prints an error if the given string is not present
+print(str2.isalnum()) #It returns true only if the entire string consistsof A-Z,a-z and 0-9.Otherwise it will return false
