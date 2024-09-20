@@ -5,5 +5,12 @@ print("Your age is:", a)
 
 if(a>18):
   print("You can drive a car")
- else:
+  print("yes")
+else:
   print("You cannot drive a car.")
+  print("No")
+
+if(19>20):
+    print("JHello world")
+else:
+    print("Bye world")
