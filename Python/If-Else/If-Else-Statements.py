@@ -10,7 +10,4 @@ else:
   print("You cannot drive a car.")
   print("No")
 
-if(19>20):
-    print("JHello world")
-else:
-    print("Bye world")
+
