@@ -1,0 +1,90 @@
+<!DOCTYPE html>    
+<html lang="en">
+    <head><!-- User cannot see -->
+        <meta charset="UTF-8">  
+        <meta name="author" content="Harshit Gaba">
+        <meta name="description" content="This page contains all the things i am learning how to create as i learn html">   
+        <title>My first webpage</title> 
+        <link rel="icon" href="HTML5_logo_and_wordmark.svg.png" type="image/x-icon">  <!-- this is an reletive reference where the file is in the same folder as the html file -->
+        <link rel="stylesheet" href="main.css" type="text/css">  <!-- linking css file -->
+
+    </head>
+    <body> 
+        <h1>My goals for the year</h1>
+
+        <hr>   
+
+            <nav>
+                <ul>
+                    <li><a href="#schedule">My Schedule</a></li>  <!-- linking to a section in the same page using id # is important to put-->
+                        
+                    <li><a href="#vacation">My Vacation Plans</a></li>   
+                    
+                </ul>
+            </nav>
+
+        <section id="schedule"> <!--dicides the page into sectons. Id is import to put in the section tag-->
+        <h2>My daily schedule</h2>
+        <p>Let me tell u how:</p>
+        <ol>     
+            <li>... i learn mode about web dev</li>     
+            <li>... i plan out me schedule</li>
+            <li>... I use resources from <abbr title="Mozzila Developer Network">
+                <a href="https://developer.mozilla.org/">MDN</a>  <!--a is for anchor tag  this href is for absolute reference-->   
+            </abbr></li>
+        </ol>  
+        </section>
+    <hr>
+    
+    <section id="vacation">
+    <h3>Places I'll want to visit</h3>
+    <ul>
+        <li><p id="visit">It's cold in the mountains.</p></li>
+      <li><p>i heard good things about the beach.</p> 
+        <address>
+            123 Ocean Drive<br>            
+            Miami, FL 33101<br>
+            USA 
+        </address> </li>   
+    </ul>
+    <hr>
+
+    <h3>Places I'll want to avoid</h3>
+    <dl>  
+        <dt>North Pole</dt>  
+        <dd>I hear this is <strong>too cold</strong>!</dd> 
+
+        <dt>South Pole</dt>
+        <dd>I hear this is also cold</dd>  
+    </dl>
+
+    </section>
+
+    <ul>
+        <li><a href="HTML5_logo_and_wordmark.svg.png" download>HTML 5 logo</a></li><!--download attribute makes the file download instead of opening in the browser-->
+        
+        <li>
+            Contact me at <a href="mailto:random@email.com">My email adress</a> <!-- mailto: makes it open the default email client to send an email-->
+        </li>
+
+        <li>
+            Dial  <a href="tel:+1234567890">My phone number</a> <!-- tel: makes it open the default calling app to call the number-->
+        </li>
+
+        <li>
+            <a href="https://www.google.com/" target="_blank">Google</a>
+        </li><!-- absolute reference -->
+    </ul>  
+    
+    <hr>
+        &lt;&lt;&lt;&copy; <a href="about.html">Harshit Gaba</a> &gt;&gt;&gt;  
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+
+    
+    </body>
+
+
+
+</html>

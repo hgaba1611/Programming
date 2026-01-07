@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><!-- User cannot see -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Harshit Gaba">
+    <meta name="description" content="This page contains all the things i am learning how to create as i learn html">
+    <title>My first webpage</title>
+    <link rel="icon" href="HTML5_logo_and_wordmark.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <h1>My goals for the year</h1>
+
+
+
+        <nav aria-label="primary-navigation"> <!--tells us which nav is this-->
+            <ul>
+                <li><a href="#schedule">My Schedule</a></li>
+
+                <li><a href="#vacation">My Vacation Plans</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <article id="schedule"> <!--it has own topic thhats why it is article. and section is general purpose-->
+            <h2>Im ready to learn html</h2>
+            <p>This is my first webpage</p>
+            <section>
+                <h3>HTML5</h3>
+                <img src="img/html.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
+                <figure>
+                    <figcaption>An example of HTML5 code</figcaption>
+                    <p>
+                        <code>
+                        &lt;h1&gt;Hello World!&lt;/h1&gt;
+                    </code>
+                    </p>
+                </figure>
+            </section>
+            <section>
+                <h3>My daily schedule</h3>
+                <p>Let me tell u how:</p>
+                <ol>
+                    <li>... i learn mode about web dev</li>
+                    <li>... i plan out me schedule</li>
+                    <li>... I use resources from <abbr title="Mozzila Developer Network">
+                            <a href="https://developer.mozilla.org/">MDN</a>
+                        </abbr></li>
+                </ol>
+                <aside>
+                    <!--sidebar to the page or another section of complimentary text which is not that much important-->
+                    <details> <!--user can open or close it-->
+                        <summary>
+                            Guess the <mark>number of hours</mark> i code per day
+                        </summary> <!--mark element is for highlighting-->
+                        <p>I start at <time datetime="08:00">8 am</time> and i write code for 5 hours</p>
+                        <!--time element is for dates and times it doesent change the layout but adds meaning to the code-->
+                    </details>
+
+                </aside>
+                 </section>
+            </article>
+               
+        <hr>
+
+        <article id="vacation">
+            <h2>My Vacation Plans</h2>
+            <p>I have been planning my vacation for a while now.</p>
+
+            <section>
+
+                <h3>Places I'll want to visit</h3>
+                <ul>
+                    <li>
+                        <p>It's cold in the mountains.</p>
+                    </li>
+                    <li>
+                        <p>i heard good things about the carribearn.</p>
+                        <figure>
+                            <img src="img/carrabian.jpg" alt="Carribean Beach" title="Carribean Beach" width="300"
+                                height="300" loading="lazy">
+
+                            <figcaption>
+                                A beautiful beach in the Carribean
+                            </figcaption>
+                        </figure>
+                        <address>
+                            123 Ocean Drive<br>
+                            Miami, FL 33101<br>
+                            USA
+                        </address>
+                        <figure><img src="img/vacation.jpg" alt="Vacation" title="Vacation Time" width="300"
+                                height="300" loading="lazy">
+                            <figcaption>
+                                Vacation Time!
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+
+            </section>
+            <hr>
+            <section>
+                <h3>Places I'll want to avoid</h3>
+                <dl>
+                    <dt>North Pole</dt>
+                    <dd>I hear this is <strong>too cold</strong>!</dd>
+
+                    <dt>South Pole</dt>
+                    <dd>I hear this is also cold</dd>
+                </dl>
+            </section>
+
+        </article>
+    </main>
+
+    <hr>
+    <footer>
+        <ul>
+            <li><a href="HTML5_logo_and_wordmark.svg.png" download>HTML 5 logo</a></li>
+
+            <li>
+                Contact me at <a href="mailto:random@email.com">My email adress</a>
+            </li>
+
+            <li>
+                Dial <a href="tel:+1234567890">My phone number</a>
+            </li>
+
+            <li>
+                <a href="https://www.google.com/" target="_blank">Google</a>
+            </li>
+        </ul>
+        <p>
+            &lt;&lt;&lt;&copy; <a href="about.html">Harshit Gaba</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+
+    </footer>
+
+
+</body>
+
+
+
+</html>

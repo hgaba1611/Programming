@@ -1,0 +1,28 @@
+body{
+    background-color: #a7dbe3;
+    color: white;
+    font-size: 22px;
+}   
+
+h1{
+    font-size: 70 px;
+    text-align: center;
+    color: black;
+}
+
+
+p{
+    color: #2f4c5c;
+}
+
+
+.box{
+    background-image: url(photo-1603189617530-6d32306f57c5.jpg);
+    color: white;
+    padding: 100px;
+    margin: 100px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

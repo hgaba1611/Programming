@@ -1,0 +1,45 @@
+html {
+                font-size: 33px;
+            }
+
+            body {                           
+                background-color: #333;
+                color: whitesmoke;
+            }   
+
+            a {
+                color: aliceblue;
+            }
+
+            a:visited {
+                color: lightgray;
+            }
+
+            a:hover, a:active   
+            {
+                color: orange;
+            }
+            
+            abbr {
+                border-bottom: 2px solid lightblue;
+                cursor: help;
+                font-size: 30px;
+
+            }
+            abbr:hover {
+                border-bottom: 2px solid orange;
+                font-size: 33px;
+            }
+
+            mark {
+                background-color: orange;
+                color: black;
+            }
+
+            table, tr, th, td, caption {
+                border: 1px solid #eee;
+                font-family: 'Courier New', Courier, monospace;
+                border-collapse: collapse;
+                padding: 10px;
+                text-align: center;
+            }

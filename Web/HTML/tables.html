@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><!-- User cannot see -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Harshit Gaba">
+    <meta name="description" content="This page contains all the things i am learning how to create as i learn html">
+    <title>My first webpage</title>
+    <link rel="icon" href="HTML5_logo_and_wordmark.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <h1>My goals for the year</h1>
+
+
+
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li><a href="#schedule">My Schedule</a></li>
+
+                <li><a href="#vacation">My Vacation Plans</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <article id="schedule">
+            <h2>Im ready to learn html</h2>
+            <p>This is my first webpage</p>
+            <section>
+                <h3>HTML5</h3>
+                <img src="img/html.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
+                <figure>
+                    <figcaption>An example of HTML5 code</figcaption>
+                    <p>
+                        <code>
+                        &lt;h1&gt;Hello World!&lt;/h1&gt;
+                    </code>
+                    </p>
+                </figure>
+            </section>
+            <section>
+                <h3>My daily schedule</h3>
+                <p>Let me tell u how:</p>
+                <ol>
+                    <li>... i learn mode about web dev</li>
+                    <li>... i plan out me schedule</li>
+                    <li>... I use resources from <abbr title="Mozzila Developer Network">
+                            <a href="https://developer.mozilla.org/">MDN</a>
+                        </abbr></li>
+                </ol>
+                <aside>
+
+                    <details>
+                        <summary>
+                            Guess the <mark>number of hours</mark> i code per day
+                        </summary>
+                        <p>I start at <time datetime="08:00">8 am</time> and i write code for 5 hours</p>
+
+                    </details>
+
+                </aside>
+                <br>
+                <table> <!--without css table lines would not be visible basic css is in main.css-->
+                    <caption>My Daily Schedule</caption> <!--adds a 2 colspan item to the top-->
+                    <thead> <!--defines the header of the table-->
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th scope="col">Time</th> <!--adds another row to add the header-->
+                            <th scope="col">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody> <!--defines the body of the table-->
+                        <tr> <!--table row-->
+                            <th scope="row">Morning</th>
+                            <td> <!--table data-->
+                                <time datetime="08:00">8:00 AM</time>-<time datetime="11:00">11:00 AM</time>
+                            </td>
+                            <td>Write Code</td>
+                        </tr>
+                        <tr> <!--table row-->
+                            <th scope="row">Break</th>
+                            <td> <!--table data-->
+                                <time datetime="11:00">11:00 AM</time>-<time datetime="12:00">12:00 PM</time>
+                            </td>
+                            <td>Eat Lunch</td>
+
+                        </tr>
+                        <tr> <!--table row-->
+                            <th scope="row">Afternoon</th>
+                            <td> <!--table data-->
+                                <time datetime="12:00">12:00 PM</time>-<time datetime="17:00">5:00 PM</time>
+                            </td>
+                            <td>Study</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">evening</th>
+                            <td rowspan="2">All other times</td>
+                            <!--rowspan="2" means the cell spans two rows and the row of the next table row is also affected by this cell's rowspan attribute-->
+                            <td>Free Time</td> 
+                    </tr>
+                    <tr>
+                        <th scope="row">Night</th>
+                        <td>sleep</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">And thats what i do all day just</td>
+                                                        <!--colspan="2" means the cell spans two columns-->
+
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </article>
+
+        <hr>
+
+        <article id="vacation">
+            <h2>My Vacation Plans</h2>
+            <p>I have been planning my vacation for a while now.</p>
+
+            <section>
+
+                <h3>Places I'll want to visit</h3>
+                <ul>
+                    <li>
+                        <p>It's cold in the mountains.</p>
+                    </li>
+                    <li>
+                        <p>i heard good things about the carribearn.</p>
+                        <figure>
+                            <img src="img/carrabian.jpg" alt="Carribean Beach" title="Carribean Beach" width="300"
+                                height="300" loading="lazy">
+
+                            <figcaption>
+                                A beautiful beach in the Carribean
+                            </figcaption>
+                        </figure>
+                        <address>
+                            123 Ocean Drive<br>
+                            Miami, FL 33101<br>
+                            USA
+                        </address>
+                        <figure><img src="img/vacation.jpg" alt="Vacation" title="Vacation Time" width="300"
+                                height="300" loading="lazy">
+                            <figcaption>
+                                Vacation Time!
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+
+            </section>
+            <hr>
+            <section>
+                <h3>Places I'll want to avoid</h3>
+                <dl>
+                    <dt>North Pole</dt>
+                    <dd>I hear this is <strong>too cold</strong>!</dd>
+
+                    <dt>South Pole</dt>
+                    <dd>I hear this is also cold</dd>
+                </dl>
+            </section>
+
+        </article>
+    </main>
+
+    <hr>
+    <footer>
+        <ul>
+            <li><a href="HTML5_logo_and_wordmark.svg.png" download>HTML 5 logo</a></li>
+
+            <li>
+                Contact me at <a href="mailto:random@email.com">My email adress</a>
+            </li>
+
+            <li>
+                Dial <a href="tel:+1234567890">My phone number</a>
+            </li>
+
+            <li>
+                <a href="https://www.google.com/" target="_blank">Google</a>
+            </li>
+        </ul>
+        <p>
+            &lt;&lt;&lt;&copy; <a href="about.html">Harshit Gaba</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+
+    </footer>
+
+
+</body>
+
+
+
+</html>

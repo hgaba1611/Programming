@@ -1,0 +1,56 @@
+body{
+    background-color: black
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-size: 22px;
+}
+
+
+h1{
+    font-size: 70px;
+    color: lightgreen;
+    text-align: center;
+}
+.intro{
+    font-size: 35px;
+    color: darkblue;
+    ;
+}
+
+
+
+
+.top-section{
+    background: pink;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+   
+
+}
+
+.bottom-section{
+    background: hotpink;
+}
+
+.span-1{
+    background: red;
+    color: blue;
+    /*   margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px; */
+    padding: 10px;
+    font-size: 35px;
+} 
+
+#bottom-section{
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    backdrop-filter: blur(10px);
+    
+}
